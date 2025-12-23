@@ -1,9 +1,8 @@
 body{
 background-color: #d9d9d9;
 color: white;
-display: flex;
-justify-content: center;
-height: 100vh;
+
+min-height: 130vh;
 
 
 }
@@ -11,7 +10,20 @@ height: 100vh;
 width: 80%;
 height: 50px;
 background-color: white;
-position: absolute;
+position: sticky;
 top: 20px;
 border-radius: 50px;
+left: 87px;
+}
+#logo{
+width: 150px;
+height: 150px;
+background-image: url(LogoQ.png);
+background-repeat: no-repeat;
+background-position: -10px;
+background-size: 100%;
+z-index: 1;
+position: sticky;
+
+transform: translate(0px, -54px);
 }
