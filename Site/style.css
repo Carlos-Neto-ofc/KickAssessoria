@@ -8,7 +8,7 @@ color: white;
 min-height: 130vh;
 }
 #barrac{
-width: 800px;
+width: 1000px;
 height: 50px;
 background-color: white;
 position: sticky;
@@ -37,7 +37,7 @@ width: 120px;
 height: 40px;
 background-color: black;
 position: sticky;
-transform: translate(521px, 4.9px);
+transform: translate(720px, 4.9px);
 border-radius: 50px;
 }
 #botaop3{
