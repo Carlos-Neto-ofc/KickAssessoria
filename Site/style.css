@@ -3,8 +3,6 @@ background-color: #d9d9d9;
 color: white;
 
 min-height: 130vh;
-
-
 }
 #barrac{
 width: 80%;
@@ -14,6 +12,8 @@ position: sticky;
 top: 20px;
 border-radius: 50px;
 left: 87px;
+display: flex;
+margin: 0 auto;
 }
 #logo{
 width: 150px;
