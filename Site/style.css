@@ -38,18 +38,34 @@ width: 120px;
 height: 40px;
 background-color: black;
 position: sticky;
-transform: translate(755px, 4.9px);
+transform: translate(755px, -14px);
 border-radius: 50px;
+cursor: pointer;
 }
 #botaop3{
 width: 100px;
 height: 100px;
     font-family: 'Montserrat', sans-serif;
 position: sticky;
-transform: translate(16px, -10px);
+transform: translate(16px, 08px);
 letter-spacing: -0.3px;
+text-decoration: none;
+color: white;
+cursor: pointer;
 }
+a{
+     -webkit-tap-highlight-color: transparent; /* mobile */
+outline: none;
+text-decoration: none;
 
+
+
+    }
+a:focus,
+a:active,
+a:focus-visible {
+  outline: none;
+}
 nav{
 position: sticky;
 top: 28px;
