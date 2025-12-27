@@ -139,12 +139,13 @@ width: 210px;
 height: 65px;
 font-size: 130%;
 border-radius: 50px;
-position: relative;
-top: 80px;
+position: fixed;
+top: 555px;
 left: 500px;
 cursor: pointer;
 text-align: center;
 padding-top: 16px;
+
 }
 a{
     text-decoration: none;
