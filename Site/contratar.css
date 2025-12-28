@@ -1,8 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+
+
 body{
 background-color: #d9d9d9;
+display: flex;
+justify-content: center;
+height: 80vh;
+align-items: center;
 }
-#pla{
-width: 100px;
-height: 100px;
-background-color: black;
+#plano1{
+    width: 300px;
+    height: 600px;
+    background-color: white;
+    
+border-radius: 40px;
+position: relative;
+
+overflow: hidden;
+}
+#plano2{
+    width: 320px;
+    height: 650px;
+    background-color: white;
+    
+border-radius: 40px;
+position: relative;
+top: -24px;
+}
+#plano3{
+    width: 300px;
+    height: 600px;
+    background-color: white;
+    
+border-radius: 40px;
+position: relative;
+}
+#planos{
+display: flex;
+    justify-content: space-between;
+gap: 20px;
+position: absolute;
+top: 230px;
+}
+#pln{
+position: absolute;
+top: 10px;
+font-family: 'Inter', sans-serif;
+font-weight: 800;
+color: rgba(0, 0, 0, 60%);
+font-size: 250%;
+}
+#pln2{
+position: absolute;
+top: 90px;
+font-family: 'Inter', sans-serif;
+font-weight: 500;
+color: rgba(0, 0, 0, 35%);
+font-size: 120%;
+}
+#ct{
+text-align: center;
+font-family: 'Montserrat', sans-serif;
+font-weight: 900;
+color: rgba(37, 37, 37, 0.5);
+font-size: 130%;
+position: relative;
+top: 01px;
+
+}
+#lin{
+    width: 300px;
+    height: 2px;
+    background-color: rgba(0, 0, 0, 55%);
+position: absolute;
+top: 66px;
+
+
+}
+#pc{
+background-color: rgba(0, 0, 0, 26%);
+padding: 16px;
+}
+#rs1{
+font-family: 'Montserrat', sans-serif;
+font-weight: 600;
+font-size: 120%;
+position: relative;
+left: 38px;
+top: 30px;
+}
+#precop1{
+    font-family: 'Inter', sans-serif;
+    position: absolute;
+    top: 85px;
+    left: 71px;
+font-size: 260%;
+}
+#periodop1{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 130%;
+position: absolute;
+left: 170px;
+top: 116px;
+
 }
