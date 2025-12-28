@@ -1,0 +1,8 @@
+{
+  "rewrites": [
+    {
+      "source": "/contratar",
+      "destination": "/contratar.html"
+    }
+  ]
+}
