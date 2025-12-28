@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
 
 body{
 background-color: #d9d9d9;
@@ -16,7 +17,7 @@ align-items: center;
     
 border-radius: 40px;
 position: relative;
-
+border: 4px solid rgba(0, 0, 0, 26%);
 overflow: hidden;
 }
 #plano2{
@@ -82,27 +83,106 @@ top: 66px;
 background-color: rgba(0, 0, 0, 26%);
 padding: 16px;
 }
-#rs1{
+#rs1seme{
 font-family: 'Montserrat', sans-serif;
 font-weight: 600;
 font-size: 120%;
 position: relative;
-left: 38px;
-top: 30px;
+left: 58px;
+top: 10px;
 }
-#precop1{
+#precop1seme{
     font-family: 'Inter', sans-serif;
     position: absolute;
-    top: 85px;
-    left: 71px;
+    top: -14px;
+    left: 87px;
 font-size: 260%;
 }
-#periodop1{
+#periodop1seme{
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
     font-size: 130%;
 position: absolute;
 left: 170px;
-top: 116px;
+top: 19px;
+}
+#vezesx1seme{
+font-family: 'Montserrat', sans-serif;
+font-weight: 600;
+font-size: 108%;
+position: relative;
+left: 59px;
+top: -0px;
 
+}
+#rs1anu{
+font-family: 'Montserrat', sans-serif;
+font-weight: 600;
+font-size: 120%;
+position: relative;
+left: 58px;
+top: 10px;
+}
+#precop1anu{
+    font-family: 'Inter', sans-serif;
+    position: absolute;
+    top: -13px;
+    left: 94px;
+font-size: 260%;
+}
+#periodop1anu{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 130%;
+position: absolute;
+left: 166px;
+top: 19px;
+}
+#vezesx1anu{
+font-family: 'Montserrat', sans-serif;
+font-weight: 600;
+font-size: 108%;
+position: relative;
+left: 59px;
+top: -0px;
+
+}
+#precoseme1{
+    position: relative;
+    left: -20px;
+
+
+}
+#precoanu1{
+    position: relative;
+left: -20px;
+}
+#linhap1{
+    width: 300px;
+height: 4px;
+background-color: rgba(0, 0, 0, 26%);
+position: absolute;
+top: 260px;
+}
+#smp1{
+border: none;
+position: absolute;
+top: 300px;
+left: 70px;
+width: 150px;
+height: 50px;
+background-color: black;
+color: white;
+font-family: 'Poppins', sans-serif;
+border-radius: 50px;
+font-size: 130%;
+}
+#osp1{
+font-family: 'Montserrat', sans-serif;
+font-weight: 500;
+position: absolute;
+top: 356px;
+font-size: 110%;
+left: 20px;
+color: rgba(0, 0, 0, 66%);
 }
