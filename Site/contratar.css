@@ -28,6 +28,8 @@ overflow: hidden;
 border-radius: 40px;
 position: relative;
 top: -24px;
+border: 4px solid rgba(0, 0, 0, 4%);
+overflow: hidden;
 }
 #plano3{
     width: 300px;
@@ -36,6 +38,8 @@ top: -24px;
     
 border-radius: 40px;
 position: relative;
+border: 4px solid rgba(0, 0, 0, 26%);
+overflow: hidden;
 }
 #planos{
 display: flex;
@@ -79,7 +83,11 @@ top: 66px;
 
 
 }
-#pc{
+#pc2{
+background-color: rgba(0, 0, 0, 13%);
+padding: 16px;
+}
+#pc1{
 background-color: rgba(0, 0, 0, 26%);
 padding: 16px;
 }
@@ -157,17 +165,18 @@ top: -0px;
     position: relative;
 left: -20px;
 }
-#linhap1{
+#linha1p1{
     width: 300px;
 height: 4px;
 background-color: rgba(0, 0, 0, 26%);
 position: absolute;
 top: 260px;
+
 }
 #smp1{
 border: none;
 position: absolute;
-top: 300px;
+top: 290px;
 left: 70px;
 width: 150px;
 height: 50px;
@@ -181,8 +190,173 @@ font-size: 130%;
 font-family: 'Montserrat', sans-serif;
 font-weight: 500;
 position: absolute;
-top: 356px;
+top: 346px;
 font-size: 110%;
 left: 20px;
 color: rgba(0, 0, 0, 66%);
+}
+#linha2p1{
+    width: 300px;
+    height: 4px;
+    background-color: rgba(0, 0, 0, 26%);
+    position: relative;
+top: 170px;
+}
+#jep1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 100%;
+position: absolute;
+top: 420px;
+left: 2px;
+text-align: center;
+font-weight: 600;
+}
+#btsp1{
+position: relative;
+top: 260px;
+left: 85px;
+
+}
+#anualp1{
+    position: relative;
+    left: -50px;
+border: none;
+width: 100px;
+height: 50px;
+background-color: black;
+color: white;
+font-family: 'poppins', sans-serif;
+font-size: 120%;
+border-radius: 50px;
+}
+#semestralp1{
+    position: relative;
+    left: -40px;
+border: none;
+width: 120px;
+height: 50px;
+background-color: black;
+color: white;
+font-family: 'poppins', sans-serif;
+font-size: 120%;
+border-radius: 50px;
+}
+#anualp2{
+    position: relative;
+    left: 50px;
+border: none;
+width: 100px;
+height: 50px;
+background-color: black;
+color: white;
+font-family: 'poppins', sans-serif;
+font-size: 120%;
+border-radius: 50px;
+top: 330px;
+}
+#semestralp2{
+    position: relative;
+    left: 60px;
+border: none;
+width: 120px;
+height: 50px;
+background-color: black;
+color: white;
+font-family: 'poppins', sans-serif;
+font-size: 120%;
+border-radius: 50px;
+top: 330px;
+
+}
+#linha2p2{
+width: 400px;
+height: 4px;
+background-color: rgba(0, 0, 0, 26%);
+position: relative;
+top: 220px;
+
+}
+#linha1p2{
+    width: 400px;
+height: 4px;
+background-color: rgba(0, 0, 0, 26%);
+position: absolute;
+top: 230px;
+
+}
+#rs2seme{
+font-family: 'Montserrat', sans-serif;
+font-weight: 600;
+font-size: 120%;
+position: relative;
+left: 58px;
+top: -30px;
+}
+#precop2seme{
+    font-family: 'Inter', sans-serif;
+    position: absolute;
+    top: -60px;
+    left: 87px;
+font-size: 260%;
+
+}
+#precoseme2{
+    position: relative;
+top: 50px;
+left: 40px;
+}
+#periodop2seme{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 130%;
+position: absolute;
+left: 170px;
+top: 19px;
+}
+#vezesx2seme{
+font-family: 'Montserrat', sans-serif;
+font-weight: 600;
+font-size: 108%;
+position: relative;
+left: 59px;
+top: -0px;
+
+}
+#smp2{
+border: none;
+position: absolute;
+top: 260px;
+left: 90px;
+width: 150px;
+height: 50px;
+background-color: black;
+color: white;
+font-family: 'Poppins', sans-serif;
+border-radius: 50px;
+font-size: 130%;
+}
+#osp2{
+font-family: 'Montserrat', sans-serif;
+font-weight: 500;
+position: absolute;
+top: 316px;
+font-size: 110%;
+left: 35px;
+color: rgba(0, 0, 0, 66%);
+}
+#precomplemento{
+    font-family: 'Inter', sans-serif;
+    position: absolute;
+    top: -53px;
+    left: 146px;
+font-size: 160%;
+}
+#ap{
+font-family: 'Montserrat', sans-serif;
+font-weight: 600;
+font-size: 120%;
+position: relative;
+left: 47px;
+top: 1px;
+color: rgba(0, 0, 0, 50%);
 }
