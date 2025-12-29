@@ -185,6 +185,7 @@ color: white;
 font-family: 'Poppins', sans-serif;
 border-radius: 50px;
 font-size: 130%;
+transition: transform .2s ease;
 }
 #osp1{
 font-family: 'Montserrat', sans-serif;
@@ -207,7 +208,7 @@ top: 170px;
     font-size: 100%;
 position: absolute;
 top: 420px;
-left: 2px;
+left: 35px;
 text-align: center;
 font-weight: 600;
 }
@@ -228,6 +229,8 @@ color: white;
 font-family: 'poppins', sans-serif;
 font-size: 120%;
 border-radius: 50px;
+transition: transform .2s ease;
+cursor: pointer;
 }
 #semestralp1{
     position: relative;
@@ -240,23 +243,35 @@ color: white;
 font-family: 'poppins', sans-serif;
 font-size: 120%;
 border-radius: 50px;
+transition: transform .2s ease;
+cursor: pointer;
+}
+#anualp1:hover{
+transform: scale(1.03);
+
+}
+#semestralp1:hover{
+transform: scale(1.03);
+
 }
 #anualp2{
     position: relative;
-    left: 50px;
+    left: 53px;
 border: none;
-width: 100px;
-height: 50px;
+width: 220px;
+height: 60px;
 background-color: black;
 color: white;
 font-family: 'poppins', sans-serif;
-font-size: 120%;
+font-size: 170%;
 border-radius: 50px;
 top: 330px;
+transition: transform .2s ease;
+cursor: pointer;
 }
 #semestralp2{
     position: relative;
-    left: 60px;
+    left: 40px;
 border: none;
 width: 120px;
 height: 50px;
@@ -334,6 +349,8 @@ color: white;
 font-family: 'Poppins', sans-serif;
 border-radius: 50px;
 font-size: 130%;
+cursor: pointer;
+transition: transform .2s ease;
 }
 #osp2{
 font-family: 'Montserrat', sans-serif;
@@ -359,4 +376,159 @@ position: relative;
 left: 47px;
 top: 1px;
 color: rgba(0, 0, 0, 50%);
+}
+#jep2{
+        font-family: 'Montserrat', sans-serif;
+    font-size: 100%;
+position: absolute;
+top: 420px;
+left: 40px;
+text-align: center;
+font-weight: 600;
+}
+#anualp3{
+    position: relative;
+    left: 46px;
+border: none;
+width: 220px;
+height: 68px;
+background-color: black;
+color: white;
+font-family: 'poppins', sans-serif;
+font-size: 170%;
+border-radius: 50px;
+top: 260px;
+transition: transform .2s ease;
+cursor: pointer;
+}
+#anualp3:hover{
+transform: scale(1.03);
+
+}
+#anualp2:hover{
+transform: scale(1.03);
+
+}
+#semestralp3{
+    position: relative;
+    left: 40px;
+border: none;
+width: 120px;
+height: 50px;
+background-color: black;
+color: white;
+font-family: 'poppins', sans-serif;
+font-size: 120%;
+border-radius: 50px;
+top: 330px;
+
+}
+#linha2p3{
+width: 400px;
+height: 4px;
+background-color: rgba(0, 0, 0, 26%);
+position: relative;
+top: 190px;
+
+}
+#linha1p3{
+    width: 400px;
+height: 4px;
+background-color: rgba(0, 0, 0, 26%);
+position: absolute;
+top: 230px;
+
+}
+#rs3seme{
+font-family: 'Montserrat', sans-serif;
+font-weight: 600;
+font-size: 120%;
+position: relative;
+left: 58px;
+top: -30px;
+}
+#precop3seme{
+    font-family: 'Inter', sans-serif;
+    position: absolute;
+    top: -60px;
+    left: 90px;
+font-size: 260%;
+
+}
+#precoseme3{
+    position: relative;
+top: 50px;
+left: 10px;
+}
+#periodop3seme{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 130%;
+position: absolute;
+left: 170px;
+top: 19px;
+}
+#vezesx3seme{
+font-family: 'Montserrat', sans-serif;
+font-weight: 400;
+font-size: 108%;
+position: relative;
+left: 29px;
+top: -0px;
+
+}
+#smp3{
+border: none;
+position: absolute;
+top: 260px;
+left: 80px;
+width: 150px;
+height: 50px;
+background-color: black;
+color: white;
+font-family: 'Poppins', sans-serif;
+border-radius: 50px;
+font-size: 130%;
+transition: transform .2s ease;
+}
+#osp3{
+font-family: 'Montserrat', sans-serif;
+font-weight: 500;
+position: absolute;
+top: 326px;
+font-size: 110%;
+left: 25px;
+color: rgba(0, 0, 0, 66%);
+width: 300px;
+}
+#precomplemento3{
+    font-family: 'Inter', sans-serif;
+    position: absolute;
+    top: -53px;
+    left: 163px;
+font-size: 160%;
+}
+#ap3{
+font-family: 'Montserrat', sans-serif;
+font-weight: 600;
+font-size: 120%;
+position: relative;
+left: 66px;
+top: 1px;
+color: rgba(0, 0, 0, 50%);
+}
+#vezesx{
+    font-family: 'Montserrat', sans-serif;
+font-weight: 600;
+font-size: 108%;
+position: relative;
+left: 40px;
+top: 10px;
+
+}
+#smp1:hover,
+#smp2:hover,
+#smp3:hover{
+transform: scale(1.03);
+cursor: pointer;
 }

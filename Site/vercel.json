@@ -1,8 +1,8 @@
 {
   "rewrites": [
     {
-      "source": "/contratar",
-      "destination": "/contratar.html"
+      "source": "/planos",
+      "destination": "/planos.html"
     }
   ]
 }
