@@ -3,12 +3,14 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
 
+
 body{
 background-color: #d9d9d9;
 display: flex;
 justify-content: center;
-height: 80vh;
+height: 200vh;
 align-items: center;
+width: 107vh;
 }
 #plano1{
     width: 300px;
@@ -19,6 +21,7 @@ border-radius: 40px;
 position: relative;
 border: 4px solid rgba(0, 0, 0, 26%);
 overflow: hidden;
+left: 150px;
 }
 #plano2{
     width: 320px;
@@ -30,6 +33,7 @@ position: relative;
 top: -24px;
 border: 4px solid rgba(0, 0, 0, 4%);
 overflow: hidden;
+left: -70px;
 }
 #plano3{
     width: 300px;
@@ -40,6 +44,7 @@ border-radius: 40px;
 position: relative;
 border: 4px solid rgba(0, 0, 0, 26%);
 overflow: hidden;
+left: -48px;
 }
 #planos{
 display: flex;
@@ -55,6 +60,7 @@ font-family: 'Inter', sans-serif;
 font-weight: 800;
 color: rgba(0, 0, 0, 60%);
 font-size: 250%;
+left: 260px;
 }
 #pln2{
 position: absolute;
@@ -63,6 +69,7 @@ font-family: 'Inter', sans-serif;
 font-weight: 500;
 color: rgba(0, 0, 0, 35%);
 font-size: 120%;
+left: 320px;
 }
 #ct{
 text-align: center;
@@ -97,7 +104,7 @@ font-weight: 600;
 font-size: 120%;
 position: relative;
 left: 58px;
-top: 10px;
+top: -27px;
 }
 #precop1seme{
     font-family: 'Inter', sans-serif;
@@ -120,7 +127,7 @@ font-weight: 600;
 font-size: 108%;
 position: relative;
 left: 59px;
-top: -0px;
+top: -36px;
 
 }
 #rs1anu{
@@ -129,7 +136,7 @@ font-weight: 600;
 font-size: 120%;
 position: relative;
 left: 58px;
-top: 10px;
+top: -24px;
 }
 #precop1anu{
     font-family: 'Inter', sans-serif;
@@ -143,7 +150,7 @@ font-size: 260%;
     font-weight: 600;
     font-size: 130%;
 position: absolute;
-left: 166px;
+left: 180px;
 top: 19px;
 }
 #vezesx1anu{
@@ -152,7 +159,7 @@ font-weight: 600;
 font-size: 108%;
 position: relative;
 left: 59px;
-top: -0px;
+top: -35px;
 
 }
 #precoseme1{
@@ -164,19 +171,20 @@ top: -0px;
 #precoanu1{
     position: relative;
 left: -20px;
+    top: -35px;
 }
 #linha1p1{
     width: 300px;
 height: 4px;
 background-color: rgba(0, 0, 0, 26%);
 position: absolute;
-top: 260px;
+top: 297px;
 
 }
 #smp1{
 border: none;
 position: absolute;
-top: 290px;
+top: 320px;
 left: 70px;
 width: 150px;
 height: 50px;
@@ -191,7 +199,7 @@ transition: transform .2s ease;
 font-family: 'Montserrat', sans-serif;
 font-weight: 500;
 position: absolute;
-top: 346px;
+top: 376px;
 font-size: 110%;
 left: 20px;
 color: rgba(0, 0, 0, 66%);
@@ -201,20 +209,20 @@ color: rgba(0, 0, 0, 66%);
     height: 4px;
     background-color: rgba(0, 0, 0, 26%);
     position: relative;
-top: 170px;
+top: 80px;
 }
 #jep1{
     font-family: 'Montserrat', sans-serif;
     font-size: 100%;
 position: absolute;
-top: 420px;
+top: 460px;
 left: 35px;
 text-align: center;
 font-weight: 600;
 }
 #btsp1{
 position: relative;
-top: 260px;
+top: 150px;
 left: 85px;
 
 }
@@ -531,4 +539,116 @@ top: 10px;
 #smp3:hover{
 transform: scale(1.03);
 cursor: pointer;
+}
+#opp{
+font-family: 'Montserrat', sans-serif;
+position: relative;
+top: 50px;
+font-size: 250%;
+left: 110px;
+}
+#oplanos{
+display: grid;
+grid-template-columns: repeat(4, 1fr);
+gap: 76px;
+position: relative;
+top: 200px;
+
+}
+#plano4{
+background-color: white;
+width: 500px;
+height: 300px;
+position: relative;
+top: 80px;
+border-radius: 40px;
+border: 4px solid rgba(0, 0, 0, 26%);
+overflow: hidden;
+
+}
+#plano5{
+background-color: white;
+width: 100px;
+height: 100PX;
+}
+#mr{
+position: relative;
+top: -36px;
+left: 226px;
+width: 230px;
+height: 30px;
+background-color: rgb(150, 41, 41);
+border-radius: 9px;
+z-index: 1;
+}
+#mr3{
+text-align: center;
+position: relative;
+top: -17px;
+font-family: 'Montserrat', sans-serif;
+color: white;
+}
+#app{
+font-family: 'Montserrat', sans-serif;
+font-weight: 600;
+font-size: 100%;
+position: relative;
+left: 20px;
+top: 1px;
+color: rgba(0, 0, 0, 50%);
+width: 260px;
+text-align: center;
+}
+#plano6{
+    width: 100px;
+    height: 100px;
+    background-color: white;
+}
+#plano7{
+    width: 100px;
+    height: 100px;
+    background-color: white;
+}
+#rs1p4{
+font-family: 'Montserrat', sans-serif;
+font-size: 120%;
+position: absolute;
+top: 80px;
+left: 50px;
+}
+#preco1p4{
+font-family: 'Inter', sans-serif;
+font-size: 260%;
+position: absolute;
+left: 80px;
+}
+#infop1{
+    font-family: 'Montserrat', sans-serif;
+position: relative;
+font-size: 100%;
+left: 95px;
+}
+#pc4{
+background-color: rgba(0, 0, 0, 26%);
+padding: 16px;
+height: 40px;
+position: relative;
+z-index: 2;
+}
+#ct4{
+text-align: center;
+font-family: 'Montserrat', sans-serif;
+font-weight: 900;
+color: rgba(37, 37, 37, 0.67);
+font-size: 130%;
+position: relative;
+top: -6px;
+}
+#periodo1p4{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 130%;
+position: absolute;
+left: 165px;
+top: 104px;
 }
