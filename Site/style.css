@@ -1,92 +1,264 @@
 @import url('https://fonts.googleapis.com/css2?family=Montaser:wght@400;500;600;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800;900;&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
 
 body{
 background-color: #d9d9d9;
 color: white;
-
+overflow-x: hidden;
 min-height: 130vh;
 }
-#barrac{
-width: 1000px;
-height: 50px;
-background-color: white;
-position: sticky;
-top: 30px;
-border-radius: 50px;
-left: 87px;
-display: flex;
-margin: 0 auto;
-
-}
-#logo{
-width: 120px;
-height: 120px;
-background-image: url(LogoQ.png);
-background-repeat: no-repeat;
-background-position: -10px;
-background-size: 100%;
-z-index: 1;
-position: sticky;
-
-transform: translate(10px, -36px);
-}
-
-#botaop{
-width: 120px;
-height: 40px;
-background-color: black;
-position: sticky;
-transform: translate(755px, -14px);
-border-radius: 50px;
-cursor: pointer;
-}
-#botaop3{
-width: 100px;
-height: 100px;
-    font-family: 'Montserrat', sans-serif;
-position: sticky;
-transform: translate(16px, 08px);
-letter-spacing: -0.3px;
-text-decoration: none;
-color: white;
-cursor: pointer;
-}
-a{
-     -webkit-tap-highlight-color: transparent; /* mobile */
-outline: none;
-text-decoration: none;
-
-
-
-    }
-a:focus,
-a:active,
-a:focus-visible {
-  outline: none;
+*{
+    color: black;
+font-family: 'Poppins', 'Montaser';
+font-weight: 600;
 }
 nav{
-position: sticky;
-top: 28px;
-}
-
-nav ul{
-width: 100px;
+background-color: white;
+width: 107%;
 height: 100px;
-    color: black;
+overflow: hidden;
+position: fixed;
+top: -30px;
+left: -70px;
 display: flex;
-gap: 57px;
-list-style: none;
-font-family: 'Poppins', sans-serif;
-font-size: 130%;
-transform: translate(-267px, 9px);
-padding: 0;
-margin: 0;
-font-weight: 590;
+align-items: center;
+display: flex;
+
+}
+#caixadt{
+position: fixed;
+left: 260px;
+display: flex;
+top: 17px;
+flex-direction: row;
+gap: 50px;
+text-transform: uppercase;
+font-size: 39%;
+}
+.text1{
+position: relative;
+display: inline-block;
+transition: color .3s ease-in-out;
+
+}
+.text1::after{
+content: "";
+width: 40px;
+height: 4px;
+position: absolute;
+background-color: rgb(22, 196, 22);
+opacity: 0.7;
+top: 16px;
+left: -01px;
+
+}
+.text2{
+position: relative;
+display: inline-block;
+z-index: 2;
+transition: color .3s ease-in-out;
+cursor: pointer;
+}
+.text2::after{
+content: "";
+width: 0px;
+height: 4px;
+position: absolute;
+background-color: rgb(22, 196, 22);
+opacity: 0.7;
+top: 16px;
+left: 0px;
+z-index: -1;
+
+transition: all .3s ease-in-out;
 }
 
-nav li{
-white-space: nowrap;
+.text2:hover::after{
+opacity: 0.7;
+width: 56px;
+}
+.text2:hover{
+color: rgb(22, 196, 22);
+}
+.text3{
+position: relative;
+display: inline-block;
+z-index: 2;
+transition: color .3s ease-in-out;
+cursor: pointer;
+}
+.text3::after{
+content: "";
+width: 0px;
+height: 4px;
+position: absolute;
+background-color: rgb(22, 196, 22);
+opacity: 0.7;
+top: 16px;
+left: 0px;
+z-index: -1;
 
+transition: all .3s ease-in-out;
+}
+
+.text3:hover::after{
+opacity: 0.7;
+width: 59px;
+}
+.text3:hover{
+color: rgb(22, 196, 22);
+}
+.text4{
+position: relative;
+display: inline-block;
+z-index: 2;
+transition: color .3s ease-in-out;
+cursor: pointer;
+}
+.text4::after{
+content: "";
+width: 0px;
+height: 4px;
+position: absolute;
+background-color: rgb(22, 196, 22);
+opacity: 0.7;
+top: 16px;
+left: 0px;
+z-index: -1;
+
+transition: all .3s ease-in-out;
+}
+
+.text4:hover::after{
+opacity: 0.7;
+width: 44px;
+}
+.text4:hover{
+color: rgb(22, 196, 22);
+}
+
+.text5{
+position: relative;
+display: inline-block;
+z-index: 2;
+transition: color .3s ease-in-out;
+cursor: pointer;
+}
+.text5::after{
+content: "";
+width: 0px;
+height: 4px;
+position: absolute;
+background-color: rgb(22, 196, 22);
+opacity: 0.7;
+top: 16px;
+left: 0px;
+z-index: -1;
+
+transition: all .3s ease-in-out;
+}
+
+.text5:hover::after{
+opacity: 0.7;
+width: 70px;
+}
+.text5:hover{
+color: rgb(22, 196, 22);
+}
+
+.text6{
+position: relative;
+display: inline-block;
+z-index: 2;
+transition: color .3s ease-in-out;
+cursor: pointer;
+}
+.text6::after{
+content: "";
+width: 0px;
+height: 4px;
+position: absolute;
+background-color: rgb(22, 196, 22);
+opacity: 0.7;
+top: 16px;
+left: 0px;
+z-index: -1;
+
+transition: all .3s ease-in-out;
+}
+
+.text6:hover::after{
+opacity: 0.7;
+width: 40px;
+}
+.text6:hover{
+color: rgb(22, 196, 22);
+}
+.text7{
+position: relative;
+display: inline-block;
+z-index: 2;
+transition: color .3s ease-in-out;
+cursor: pointer;
+}
+.text7::after{
+content: "";
+width: 0px;
+height: 4px;
+position: absolute;
+background-color: rgb(22, 196, 22);
+opacity: 0.7;
+top: 16px;
+left: 0px;
+z-index: -1;
+
+transition: all .3s ease-in-out;
+}
+
+.text7:hover::after{
+opacity: 0.7;
+width: 83px;
+}
+.text7:hover{
+color: rgb(22, 196, 22);
+}
+#logo{
+width: 90px;
+height: 90px;
+    background-image: url("LogoQ.png");
+position: absolute;
+z-index: 100;
+background-size: contain;
+left: -200px;
+top: -25PX;
+}
+
+.text8{
+position: relative;
+display: inline-block;
+z-index: 2;
+transition: color .3s ease-in-out;
+cursor: pointer;
+}
+.text8::after{
+content: "";
+width: 0px;
+height: 4px;
+position: absolute;
+background-color: rgb(22, 196, 22);
+opacity: 0.7;
+top: 16px;
+left: 0px;
+z-index: -1;
+
+transition: all .3s ease-in-out;
+}
+
+.text8:hover::after{
+opacity: 0.7;
+width: 37px;
+}
+.text8:hover{
+color: rgb(22, 196, 22);
 }
